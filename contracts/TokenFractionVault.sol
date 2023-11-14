@@ -33,8 +33,6 @@ contract TokenFractionVault is TokenTemplate, ERC721Holder {
         nft = _nft;
         tokenId = _tokenId;
         fractionsCount = _fractionsCount;
-        //fractionPrice = _fractionPrice;
-        //paymentToken = _paymentToken;
         released = false;
         super.initialize(_name, _symbol, _from, _fractionsCount);
     }
