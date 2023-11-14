@@ -5,9 +5,6 @@ import {IERC721} from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
 import {TokenFractionVault} from "./TokenFractionVault.sol";
 
-//import { Fractions } from "./Fractions.sol";
-//import { FractionsImpl } from "./FractionsImpl.sol";
-
 contract Fractionalizer {
     function fractionalize(
         address target,
